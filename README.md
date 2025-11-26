@@ -14,8 +14,9 @@ export default class HousingMap extends LightningElement {
                     location: {
                         Street: element.Address__c,
                         City: element.City__c,
-                        State: element.State__c
-                        Country:element.Country__c
+                        State: element.State__c,
+                        Country:element.Country__c,
+                        Pin:element.Pin__c
                     },
                     title: element.Name
                 };
